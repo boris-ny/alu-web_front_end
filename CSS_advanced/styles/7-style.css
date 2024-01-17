@@ -31,19 +31,19 @@ h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
-
+body {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+}
 body,
 a {
   color: var(--text-color);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-regular);
 }
 
-.visually-hidden {
+.visual-hidden {
   display: none;
 }
-
 .card-category,
 .section-tagline {
   color: var(--color-primary);

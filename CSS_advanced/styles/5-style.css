@@ -27,18 +27,18 @@ h5,
 h6 {
   font-family: var(--font-family-title);
 }
-
+body {
+  font-size: var(--font-size-medium);
+}
 body,
 a {
   color: var(--text-color);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
 }
 
-.visually-hidden {
+.visual-hidden {
   display: none;
 }
-
 .card-category,
 .section-tagline {
   color: var(--color-primary);
